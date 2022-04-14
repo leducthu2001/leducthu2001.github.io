@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#backhea{
+ 
+    height: 170px;
+}
+#header{
+    width: 100%;
+    z-index: 1000;
+    position: fixed;
+    top: 0; 
+    background-color: rgb(255 255 255 / 93%);
+    background-image: linear-gradient(
+-161deg
+, #fdfcfce8, transparent);
+
+
+}
+#main a{
+    text-decoration: none;
+}
+#backhea{
+    
+}
+#header .top a{
+
+    text-transform: uppercase;
+    font-family: inherit;
+    font-weight: 700;
+
+}
+#header .top .second{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    /* background-color: #ccc; */
+    padding: 11px;
+}
+.top .second .flex{
+    display: block;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top .second .logo a{
+    font-size: 42px;
+    color: black;
+
+
+}
+.top .second .logo a:hover{
+    color: brown;
+}
+.second .search .field{
+    width: 266px;
+    border: 1px solid rgb(134 126 125 / 27%);
+    border-radius: 15px;
+    padding: 9px 8px;
+    background-color: rgb(134 126 125 / 10%);
+}
+.second .search .field:focus{
+    outline: none;
+}
+.second .infobar ul li{
+    list-style: none;
+    display: inline-block;
+
+}
+.second .infobar ul li a{
+    display: block;
+    color: black;
+    padding: 10px;
+    font-size: 18px;
+}
+#header .bot {
+    width: 100%;
+}
+#header .bot .third{
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.bot .third ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+.bot .third ul li a{
+    color: #000;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+.bot .third ul li a:hover{
+    color: brown;
+}
+.gg-shopping-cart {
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    transform: scale(var(--ggs,1));
+    width: 20px;
+    height: 21px;
+    background:
+        linear-gradient(
+            to left,currentColor 12px,
+            transparent 0)
+            no-repeat -1px 6px/18px 2px,
+        linear-gradient(
+            to left,currentColor 12px,
+            transparent 0)
+            no-repeat 6px 14px/11px 2px,
+        linear-gradient(
+            to left,currentColor 12px,
+            transparent 0)
+            no-repeat 0 2px/4px 2px,
+        radial-gradient(
+            circle,currentColor 60%,
+            transparent 40%)
+            no-repeat 12px 17px/4px 4px,
+        radial-gradient(
+            circle,currentColor 60%,
+            transparent 40%)
+            no-repeat 6px 17px/4px 4px
+}
+.gg-shopping-cart::after,
+.gg-shopping-cart::before {
+    content: "";
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    width: 2px;
+    height: 14px;
+    background: currentColor;
+    top: 2px;
+    left: 4px;
+    transform: skew(12deg)
+}
+.gg-shopping-cart::after {
+    height: 10px;
+    top: 6px;
+    left: 16px;
+    transform: skew(-12deg)
+}
+/* -----------------------------------------------------
+----------------------------------------------------- */
+.slideshow-container {
+    max-width: 1;
+
+    position: relative;
+    margin: auto;
+ 
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 36px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+/* -----------------------------------------------------
+----------------------------------------------------- */
+#container{
+    width: 100%;
+
+}
+#container .content{
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#container .content .box-image{
+    width: 20%;
+    margin: 5px 0px;
+}
+.content .box-image .imge{
+    width: 245px;
+    height: 270px;
+}
+
+.content .box-image .text-product a{
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+}
+.content .box-image .price-product p{
+    color: brown;
+}
+/* ============================================ */
+.clearfix-nav{
+    width: 100%;
+    margin-top: 24px;
+}
+.clearfix-nav .page-nav{
+    max-width: 282px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-radius: 11px;
+    
+}
+
+.clearfix-nav .page-nav  li{
+    display: inline;
+ 
+}
+.page-nav  li a{
+    /* float: left; */
+    padding: 6px 15px;
+    border: 0px solid #ddd;
+    /* margin-left: -1px; */
+	text-decoration: none;
+    color: black;
+
+}
+ 
+   
+
+
+/* -----------------------------------------------------
+----------------------------------------------------- */
+#footer{
+    margin-top: 20px;
+    width: 100%;
+    padding-bottom: 40px;
+
+}
+#footer .ftpage{
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    padding: 4px;
+}
+.ftpage .ftbox{
+    max-width: 25%;
+    margin: 15px;
+    padding: 5px;
+}
+.ftpage .ftbox .blockf{
+    display: block;
+    padding: 14px 0px;
+}
